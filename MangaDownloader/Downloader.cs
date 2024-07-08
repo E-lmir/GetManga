@@ -18,9 +18,9 @@ namespace MangaDownloader
 
         private const string ApiUrl = "https://desu.me/manga/api/";
 
-        public async Task GetDataFromTitle (string url, string savePath, int firstChapter = 1, int? lastChapter = null, bool compressToZip = false)
+        public async Task GetDataFromTitle (string linkToManga, string savePath, int firstChapter = 1, int? lastChapter = null, bool compressToZip = false)
         {
-            var titleId = url.Split('.').Last().TrimEnd('/');
+            var titleId = linkToManga.Split('.').Last().TrimEnd('/');
             var json = await this.GetJsonAsync(ApiUrl + titleId);
             var title = this.GetTitleInfo(json);
 

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaTest", "MangaTest\MangaTest.csproj", "{FFDE3719-A653-473C-AAA7-CF462B58F5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MangaDownloader", "MangaDownloader\MangaDownloader.csproj", "{A6D8223D-19D9-4840-9E03-70C27E423310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFDE3719-A653-473C-AAA7-CF462B58F5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDE3719-A653-473C-AAA7-CF462B58F5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDE3719-A653-473C-AAA7-CF462B58F5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDE3719-A653-473C-AAA7-CF462B58F5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D8223D-19D9-4840-9E03-70C27E423310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D8223D-19D9-4840-9E03-70C27E423310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D8223D-19D9-4840-9E03-70C27E423310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D8223D-19D9-4840-9E03-70C27E423310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6053EAEE-E05C-4713-9850-5FE2A780EDFF}
+	EndGlobalSection
+EndGlobal
